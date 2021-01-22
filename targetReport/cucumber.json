@@ -1,0 +1,960 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6437416612,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Create User Account",
+        "description": "",
+        "id": "create-account;create-user-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1557166790,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to \"https://parabank.parasoft.com/parabank/\"  https://parabank.parasoft.com/parabank/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://parabank.parasoft.com/parabank/",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.user_navigates_to_https_parabank_parasoft_com_parabank(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2515776110,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks Register button",
+            "match": {
+              "location": "LoginSteps.user_clicks_Register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2133925231,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters first name \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.user_enters_first_name(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159323481,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters last name \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginSteps.user_enters_last_name(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141189599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Address \"street\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "street",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.user_enters_Address(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140168016,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters City \"city\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "city",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.user_enters_City(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147294621,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters State \"TN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TN",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.user_enters_State(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144172242,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters Zip Code \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.user_enters_Zip_Code(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178743816,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters phone for account \"(555)-555-5555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "(555)-555-5555",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginSteps.user_enters_phone_for_account(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183238701,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters SSN \"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456789",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.user_enters_SSN(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188795038,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters userName \"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.user_enters_userName(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235252972,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters password for account \"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSteps.user_enters_password_for_account(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195241114,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters password to confirm \"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginSteps.user_enters_password_to_confirm(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2470047653,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Register button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000277896,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user should be displayed with an account created notification \"User Registered\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User Registered",
+                  "offset": 67
+                }
+              ],
+              "location": "LoginSteps.the_user_should_be_displayed_with_an_account_created_notification(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create Account",
+    "description": "",
+    "id": "create-account",
+    "keyword": "Feature",
+    "uri": "CreateAccount.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4346416803,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Fill out Customer Care form",
+        "description": "",
+        "id": "customer-care-feature;fill-out-customer-care-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1202698115,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to \"https://parabank.parasoft.com/parabank/\"  https://parabank.parasoft.com/parabank/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://parabank.parasoft.com/parabank/",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.user_navigates_to_https_parabank_parasoft_com_parabank(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 524394037,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks Customer Care button",
+            "match": {
+              "location": "LoginSteps.user_clicks_Customer_Care_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2114223447,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters name \"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.user_enters_name(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128864685,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters email \"test1234@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234@test.com",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.user_enters_email(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144525138,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters phone \"(555)-555-5555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "(555)-555-5555",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.user_enters_phone(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132279961,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters message \"Hello There.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello There.",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.user_enters_message(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2565767742,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Send button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Send_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1999636052,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should be displayed with a notification \"General Kenobi!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "General Kenobi!",
+                  "offset": 50
+                }
+              ],
+              "location": "LoginSteps.the_user_should_be_displayed_with_a_notification(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Customer Care feature",
+    "description": "",
+    "id": "customer-care-feature",
+    "keyword": "Feature",
+    "uri": "CustomerCare.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4488281010,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login into account with credentials then open a new account",
+        "description": "",
+        "id": "login,-open-a-new-account;login-into-account-with-credentials-then-open-a-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1234382574,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to \"https://parabank.parasoft.com/parabank/\"  https://parabank.parasoft.com/parabank/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://parabank.parasoft.com/parabank/",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.user_navigates_to_https_parabank_parasoft_com_parabank(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 226335439,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"test1234\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231090456,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"test1234\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 835025445,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 585003,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should be displayed with a login alert \"Accounts Overview\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accounts Overview",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginSteps.the_user_should_be_displayed_with_a_login_alert(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 462416177,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Open New Account button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_the_Open_New_Account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2202339692,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects an \"CHECKING\" from the drop down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CHECKING",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.user_selects_an_from_the_drop_down(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2265517557,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects a \"1\" from the drop down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.user_selects_a_from_the_drop_down(int)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2137176690,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks Create New Account button",
+            "match": {
+              "location": "LoginSteps.user_clicks_Create_New_Account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000692371,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user should be displayed with an account created alert \"Account Opened!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Opened!",
+                  "offset": 60
+                }
+              ],
+              "location": "LoginSteps.the_user_should_be_displayed_with_an_account_created_alert(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login, Open a new account",
+    "description": "",
+    "id": "login,-open-a-new-account",
+    "keyword": "Feature",
+    "uri": "LoginNewAccount.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4113168312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login into account with credentials then transfer funds from one account to another",
+        "description": "",
+        "id": "login,-transfer-funds;login-into-account-with-credentials-then-transfer-funds-from-one-account-to-another;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1286326186,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to \"https://parabank.parasoft.com/parabank/\"  https://parabank.parasoft.com/parabank/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://parabank.parasoft.com/parabank/",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.user_navigates_to_https_parabank_parasoft_com_parabank(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160790329,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"test1234\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127806391,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"test1234\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginSteps.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 783318280,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170921,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should be displayed with a login alert \"Accounts Overview\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accounts Overview",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginSteps.the_user_should_be_displayed_with_a_login_alert(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 632171803,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks Transfer Funds button",
+            "match": {
+              "location": "LoginSteps.user_clicks_Transfer_Funds_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2108908691,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters an amount \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginSteps.user_enters_an_amount(int)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241699443,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects a From account number \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSteps.user_selects_a_From_account_number(int)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199397314,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User selects a to account number \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSteps.user_selects_a_to_account_number(int)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128584027,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks TRANSFER button",
+            "match": {
+              "location": "LoginSteps.user_clicks_TRANSFER_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000617765,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user should be displayed with a transfer alert \"Transfer Completed!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Transfer Completed!",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginSteps.the_user_should_be_displayed_with_a_transfer_alert(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login, Transfer funds",
+    "description": "",
+    "id": "login,-transfer-funds",
+    "keyword": "Feature",
+    "uri": "LoginTransferFunds.feature"
+  }
+]
